@@ -53,7 +53,7 @@ def read_rss():
 # In[15]:
 
 
-schedule.every(2).hour.do(read_rss)
+schedule.every(2).hours.do(read_rss)
 
 while True:
     schedule.run_pending()
